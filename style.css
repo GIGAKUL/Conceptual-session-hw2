@@ -12,12 +12,11 @@ body {
 ul {
   list-style: none;
 }
-h1{
-    color: white;
-    font-size: 86px;
-    font-weight: 900;
-    /* width:1000px; */
-    text-align: center;
+h1 {
+  color: white;
+  font-size: 86px;
+  font-weight: 900;
+  text-align: center;
 }
 
 /* Navbar Styles */
@@ -53,18 +52,38 @@ nav {
   justify-content: center;
   align-items: center;
 }
-.banner-col{
+.banner-col {
     text-align: center;
     width: 882px;
-}
-.banner-col p {
-    /* width: 900px; */
     
+  }
+.banner-col p {
     color: white;
+    margin-bottom: 15px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.banner-col h1{
+  margin-bottom: 15px;
 }
 .banner-span {
   color: #f94c30;
 }
+.btn1 {
+    margin-right: 10px;
+    padding: 15px 35px;
+    font-size: 16px;
+    border: none;
+    color: rgb(0, 0, 0);
+    border: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;  
+}
+
 .btn{
-    
+    background-color: #f94c30;
+    color: white;
 }

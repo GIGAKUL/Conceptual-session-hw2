@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
-/* Shared Styles */
+
+/*------------------- Shared Styles -------------------*/
 
 * {
   margin: 0;
@@ -18,8 +19,19 @@ h1 {
   font-weight: 900;
   text-align: center;
 }
-
-/* Navbar Styles */
+.btn1 {
+  margin-right: 10px;
+  padding: 15px 35px;
+  font-size: 16px;
+  border: none;
+  color: rgb(0, 0, 0);
+  border: 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
+/*------------------- Navbar Styles -------------------*/
 nav {
   background-color: rgb(0, 0, 0);
 }
@@ -37,7 +49,7 @@ nav {
 .menus ul li {
   cursor: pointer;
 }
-/* End of navbar */
+/*--------------------- End of navbar ---------------------*/
 .banner {
   height: 80vh;
   background-repeat: no-repeat;
@@ -69,24 +81,12 @@ nav {
 .banner-span {
   color: #f94c30;
 }
-.btn1 {
-  margin-right: 10px;
-  padding: 15px 35px;
-  font-size: 16px;
-  border: none;
-  color: rgb(0, 0, 0);
-  border: 0;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-family: "Poppins", sans-serif;
-}
 
 .btn {
   background-color: #f94c30;
   color: white;
 }
-
+/* ---------------------End of banner --------------------- */
 .services-col {
   color: white;
 }
@@ -101,13 +101,80 @@ nav {
   background-image: url("asset/image/footer-bg.png"),
     linear-gradient(rgba(0, 0, 0, 0.944), rgba(0, 0, 0, 0.934));
   background-blend-mode: overlay;
-  margin-bottom: 100px;
 }
 .service-row {
-  background-color: rgb(85, 84, 84);
+  display: flex;
+  padding-bottom: 15px;
+}
 
+.service-col {
+  box-shadow: 0px 0px 8px rgb(26, 24, 24);
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  padding: 30px;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  margin-right: 15px;
+}
+/*--------------------- End of services section ---------------------*/
+.appointment-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f94c30;
+  gap: 10px;
+  width: 75%;
+  padding: 15px;
+  margin: auto;
+  border-radius: 15px;
+  margin-top: -80px;
+  color: white;
+}
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.appointment-col img {
+  width: 100px;
+  padding: 15px;
+}
+.appointment-col-inside {
+  display: flex;
+  gap: 20px;
+}
+.appointment-col-inside p {
+  font-size: 20px;
+}
+.btn5 {
+  background-color: white;
+  border-radius: 30px;
+}
+.appointment-col {
   display: flex;
 }
+
+.number {
+  display: block;
+}
+
+.number h6 {
+  font-size: 13px;
+  padding-top: 10px;
+}
+.number p {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.ap-col {
+  padding-right: 10px;
+  border-right: 2px solid gray;
+}
+/*--------------------- End of Appointment section ---------------------*/
+
 .service-col img {
   width: 100px;
 }
@@ -177,5 +244,55 @@ nav {
   font-size: 11px;
 }
 .btn4-col {
-    border: none;
+  border: none;
+}
+/*--------------------- END of Appointment --------------------- */
+
+/* ----------- Blogs styles ---------- */
+.boxes {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 500px;
+}
+.box:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  transform: scale(1.1);
+}
+.box{
+  transition: all .3s;
+    width: 500px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.box img {
+  width: 500px;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+.box h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.box p {
+  font-size: 18px;
+  margin-top: 15px;
+}
+.news-head{
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 70px;
+}
+.news-head h2{
+  font-size: 60px;
+}
+.news-head p {
+  font-size: 22px;
+  padding-top: 17px;
+  padding-bottom: 20px;
+}
+.blog-content{
+  padding: 50px;
+  padding-top: 20px;
 }

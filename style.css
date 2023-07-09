@@ -355,3 +355,20 @@ footer{
   cursor: pointer;
   line-height: 50px;
 }
+.copyright{
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 70px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.copyright-row {
+  width: 65%;
+}
+.copyright-row p{
+  font-size: 20px;
+  padding-top: 40px;
+}
